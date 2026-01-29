@@ -1,0 +1,64 @@
+body{
+    background-color: #e0eaff;
+}
+
+.encabezadoDiv {
+    background-color: #6f94d8;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Arial', sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.logoDiv img {
+    width: 120px;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+}
+
+.menuDiv ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.menuDiv ul li {
+    background-color: #6665b4;
+    color: white;
+    padding: 5px 15px;
+    font-weight: bold; 
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+.redesDiv ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    
+}
+
+.redesDiv img {
+    display: flex;
+    justify-content: space-between; /* o center */
+    align-items: center;
+    gap: 16px; /* espacio entre logos */
+
+    width: 50px; 
+    height: auto;
+}
