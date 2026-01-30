@@ -1,16 +1,19 @@
 import Encabezado from "./encabezado"
 import Expersion from "./expersiones"
 import "./App.css"
-
 import perritoImg from "./assets/perrito.jpg"
 import huskyImg from "./assets/husky.jpg"
 import cafesitoImg from "./assets/cafesito.jpg"
+import Footer from "./footer"
 
 function App() {
   return (
     <div>
       <Encabezado />
       <Expersion />
+      
+      
+      
 
       <section className="cards-container">
         <div className="cards">
@@ -36,6 +39,7 @@ function App() {
 
       <h1 className="color">#5C DSM</h1>
       <h2>Margaret Isabela Rojas de Leon</h2>
+      <Footer />
     </div>
   )
 }
