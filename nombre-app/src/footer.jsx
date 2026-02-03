@@ -2,7 +2,7 @@ import './footer.css';
 function Footer() {
     return(
 <footer>
-    <p>hola mundo</p>
+    <p>@2026-Margaret Isabela Rojas de Leon</p>
 </footer>
     );
 }
